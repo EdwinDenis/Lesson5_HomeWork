@@ -57,3 +57,26 @@ body{
 .box img{
     align-self: center;
 }
+
+.footer{
+    width: 1140px;
+    height: 420px;
+    background: #121116;
+    margin: 0 auto;
+    color: #fff;
+}
+.contacts{
+    width: 270px;
+    height: 100%;
+    margin:0 auto;
+    text-align: center;
+}
+
+.logo{
+    margin-top: 118px;
+    margin-bottom: 50px;
+}
+
+footer h2{
+    border: 1px solid red;
+}
