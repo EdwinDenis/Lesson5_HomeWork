@@ -2,4 +2,58 @@ body{
     font-family: 'Raleway', sans-serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    min-width: 1580px;
+    height: 455px;
+    background: #1D1C1C;
+    margin: 0 auto;
+}
+
+.content{
+    width: 1140px;
+    height: 455px;
+    margin: 0 auto;
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+.box{
+    width: 33%;
+    margin: 107px 0 107px 0;
+    
+}
+
+.box h2{
+    color: #EAD0D0;
+    text-align:center;
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.box p{
+    color: #EAD0D0;
+    text-align: center;
+    padding: 0 37px;
+    font-size: 14px;
+}
+
+.rectangle{
+    width: 84px;
+    height: 84px;
+    background: #FF9C00;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin: 0 auto;
+    margin-bottom: 42px;
+    display: flex;
+    justify-content: center;
+}
+
+.box img{
+    align-self: center;
 }
